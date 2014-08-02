@@ -27,6 +27,8 @@ gem 'spring',        group: :development
 # Install Bootstrap as part of OMR (One Month Rails) class
 gem 'bootstrap-sass'
 
+gem 'devise', '~> 3.2.4'
+
 
 # Use sqlite3 as the database for Active Record
 group	:development, :test do
