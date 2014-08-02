@@ -79,4 +79,10 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Configuration needed by Devise for Heroku
+  # Point host to the web site you will have
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
+
 end
