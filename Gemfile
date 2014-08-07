@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 
 gem 'devise', '~> 3.2.4'
+gem 'paperclip', '~> 4.1'
 
 
 # Use sqlite3 as the database for Active Record
